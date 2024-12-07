@@ -22,6 +22,6 @@
  console.log(undefined == 0)// // => false
 
  ////=== checks the types of the data 
- console.log( "2"=== 2) // // => false
- console.log( "2"=== "2") // // => true
-
+ console.log( "2"=== 2) // // => false string compared to number
+ console.log( "2"=== "2") // // => true string compared to number
+ 
