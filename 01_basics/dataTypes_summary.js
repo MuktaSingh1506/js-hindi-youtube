@@ -1,7 +1,7 @@
 /*
 the basis on which dataTypes are made are 
-how the date is stored in the memoery -- primitive
-and how the data is accessed from the memoery -- non primitive
+-how the date is stored in the memory -- primitive
+-and how the data is accessed from the memory -- non primitive
 JS has two types of dataTypes
 1> primitive (7 categories)
     call by value means a copy of that value not he original value
