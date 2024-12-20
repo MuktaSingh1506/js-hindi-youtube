@@ -76,4 +76,37 @@ console.log(Object.entries(tinnUser))
 
 console.log(tinnUser.hasOwnProperty('isloggedin')) //true
 
+//*****destructure a object*********
+const course = {
+    courseName : "js in hindi",
+    price : "999",
+    courseInstuctor: "hitesh"
+}
+// console.log(course.courseInstuctor) //hitesh
+const {courseInstuctor}= course // accessing a key without writing the course.courseInstructor format
+console.log(courseInstuctor)//hitesh
+const {price: prc} = course // give a key a short name present in the obj
+console.log(prc)
 
+// // ***method used in obj*** destructure a obj
+// const navbar = ({company}) => {
+//     //conditions body of method
+// }
+// navbar(company = "hss")
+
+//api = json format string keys : string values
+// {
+//     "name": "his";
+//     "courseName": "js in hindi"
+//     "price": "free"
+// }
+
+//in some api the data is given in array of obj = json format
+// [
+//     {},
+//     {},
+//     {},
+// ]
+
+// toots for understanding api data json format ::: json formator website
+// api is always in json format
