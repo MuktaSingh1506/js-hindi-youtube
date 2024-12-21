@@ -41,10 +41,11 @@ if(true){
 function addOne(num){
     return num +1
 }
-addOne(5)
+console.log(addOne(5))
 
 //an expresssion when a varibale holds a function
 //this is called a hosting in advance lecture
 const addTwo = function(num){
     return num +2
 }
+console.log(addTwo(5))
