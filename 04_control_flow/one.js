@@ -64,4 +64,13 @@ if( balance > 500) console.log("test");
 
 
 // NESTING condtion
-
+const userLoggedin = true
+const debitCard = true
+if(userLoggedin && debitCard){
+    // AND condition - both condition should be true
+    console.log("allow shopping");
+}
+if(userLoggedin || debitCard){
+    // OR condition - either of the condition should be true
+    console.log("check for the cart items")
+}
